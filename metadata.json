@@ -2,7 +2,7 @@
   "description": "Enable, disable, and view details of Wireguard.\nDeveloped by Gregos-Winus.",
   "name": "Wireguard Indicator",
   "shell-version": ["3.36"],
-  "url": "",
+  "url": "https://git.gregos.me/gregos/gnome-shell-extension-wireguard-indicator.git",
   "uuid": "wireguard-indicator@gregos.me",
   "version": 1
 }
