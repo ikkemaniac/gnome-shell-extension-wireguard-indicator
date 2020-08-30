@@ -38,6 +38,7 @@ var WireguardIndicator = class WireguardIndicator extends Base.BaseIndicator {
         switch (state) {
             case "systemd-not-available":
             case "unit-not-loaded":
+            case "failed":
                 myLog("systemd unit “wg-quick@wg0.service” not loaded");
                 if (this.item_switch !== null) {
                     this.item_switch.disconnect(this._switchNotifyId);

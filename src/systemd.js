@@ -97,6 +97,8 @@ var Control = GObject.registerClass({
         }
         if (activeState === "active") {
             return "active";
+        } else if (activeState === "failed") {
+            return "failed"
         } else {
             return "inactive";
         }
